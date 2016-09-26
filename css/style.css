@@ -1,0 +1,25 @@
+body {
+  background-color: #ccc;
+}
+.quote-box {
+  positon: absolute;
+  display:block;
+  border-radius: 4px;
+  background-color: white;
+  margin: 8% auto auto auto;
+  padding: 40px 50px;
+  width: 550px;
+  height:320px;
+  float: none;    
+}
+#twitter-quote {
+  float:left;
+}
+#new-quote {
+  float:right;
+}
+#footer {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
