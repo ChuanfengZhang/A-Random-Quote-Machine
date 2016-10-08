@@ -2,7 +2,7 @@
 <html >
   <head>
     <meta charset="UTF-8">
-    <title>A Pen by  ChuanfengZhang</title>
+    <title>Random Quote Machine</title>
     
     
     
@@ -14,30 +14,33 @@
     
     
     
+    
   </head>
 
   <body>
 
-    <div class="quote-box">
-  <div class="quote-text">
-    <i class="fa fa-quote-left"></i><span id="text">lajdlffeijglanglajfaleijflajdlfjaldjfeijglanglajfaleijf</span>
+    <div class="row">
+  <div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
+    <div class="thumbnail">
+      <blockquote>
+        <p id="message">{{ message }}</p>
+        <footer class="pull-right">Anonymous</footer>
+      </blockquote>
+      <p class="pull-right"><button class="btn btn-default"><span class="fa fa-refresh"></span></button></p>
+      <p><a href="https://www.facebook.com/dialog/feed?app_id=145634995501895&display=page&name=Anonymous&description={{message}}&link={{url}}&redirect_uri=https://www.facebook.com/" class="btn" role="button" target="_tab"><i class="fa fa-facebook fa-2x"></i>
+</a>
+<a href="https://twitter.com/intent/tweet?hashtags=Anonymous&related=freecodecamp&text={{message}}" class="btn" role="button" target="_tab"><i class="fa fa-twitter fa-2x"></i>
+</a>
+<a href="http://service.weibo.com/share/share.php?url={{url}}&title={{message}}" class="btn" role="button" target="_tab">      <i class="fa fa-weibo fa-2x"></i>
+</a>
+        </p>
+    </div>
   </div>
-  <div class="quote-author">-<span id="author"></span>
 </div>
-  <div class="buttons">
-    <a class="button" id="twitter-quote" title="Tweet this quote!" target="_blank">
-      <i class="fa fa-twitter"></i>
-    </a>
-    <button class="button" id="new-quote">New quote</button>
-  </div>
-</div>
-
-
-<div id="footer" class="text-center">by <a href="http://codepen.io/Chuanfeng/"><strong>ChuanfengZhang</strong></a></div>
+<footer id="footer" class="text-center">&copy; <a href="http://codepen.io/Chuanfeng/">ChuanfengZhang</a></footer>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
 
-    
     
     
     
